@@ -129,7 +129,7 @@ class CustomVEDConfig(PretrainedConfig):
         self.is_encoder_decoder = True
 
 
-
+#ref: https://github.com/huggingface/transformers/blob/v4.35.0/src/transformers/models/vision_encoder_decoder/modeling_vision_encoder_decoder.py
 class CustomVisionEncoderDecoder(PreTrainedModel):
     config_class = CustomVEDConfig
     base_model_prefix = "vision_encoder_decoder"
