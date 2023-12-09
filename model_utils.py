@@ -1,3 +1,4 @@
+# Full ref: https://github.com/mahmoodlab/HIPT/blob/b5f4844f2d8b013d06807375166817eeb939a5aa/2-Weakly-Supervised-Subtyping/models/model_utils.py
 from collections import OrderedDict
 from os.path import join
 import math
