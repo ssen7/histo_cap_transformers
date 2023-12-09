@@ -53,7 +53,7 @@ class ViTConfigCustom(PretrainedConfig):
 
         self.hidden_size = hidden_size
 
-# model ref: https://github.com/mahmoodlab/HIPT/blob/b5f4844f2d8b013d06807375166817eeb939a5aa/2-Weakly-Supervised-Subtyping/models/model_hierarchical_mil.py
+# original HIPT model ref: https://github.com/mahmoodlab/HIPT/blob/b5f4844f2d8b013d06807375166817eeb939a5aa/2-Weakly-Supervised-Subtyping/models/model_hierarchical_mil.py
 class ViTModelCustom(ViTPreTrainedModel):
     def __init__(self, config, path_input_dim=384,  size_arg = "small", dropout=0.25, pretrain_4k='None', freeze_4k=False, pretrain_WSI='None', freeze_WSI=False):
         super().__init__(config)
