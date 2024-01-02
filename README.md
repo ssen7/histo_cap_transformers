@@ -2,7 +2,8 @@
 
 Paper Link: https://arxiv.org/abs/2312.01435. Under consideration at ISBI 2024.
 
-This work builds on https://github.com/ssen7/histo_cap_generation_2, by incorporating BERT based decoder instead of a LSTM decoder.
+This work builds on my prior work on
+[HistoCap](https://github.com/ssen7/histo_cap_generation_2), accepted in ML4H 2023 Findings track, by incorporating BERT based decoder instead of a LSTM decoder. We are also able to include tissue type, gender and the actual caption into the actual caption generated, while we were limited by vocabulary in case of an LSTM based decoder.
 
 Abstract:
 
