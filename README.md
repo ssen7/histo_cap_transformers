@@ -10,6 +10,8 @@ This work builds on my prior work on
 
 Here is the [inference pipeline](https://github.com/ssen7/histo_caption_inference_pipeline).
 
+[Google Drive Link to trained model weights.](https://drive.google.com/file/d/1qwuh0kdRGpcyWVy3XW8LjcyvG4uUus60/view?usp=sharing)
+
 Abstract:
 
 Deep learning for histopathology has been successfully used for disease classification, image segmentation and more. However, combining image and text modalities using current state-of-the-art methods has been a challenge due to the high resolution of histopathology images. Automatic report generation for histopathology images is one such challenge. In this work, we show that using an existing pre-trained Vision Transformer in a two-step process of first using it to encode 4096x4096 sized patches of the Whole Slide Image (WSI) and then using it as the encoder and a pre-trained Bidirectional Encoder Representations from Transformers (BERT) model for language modeling-based decoder for report generation, we can build a fairly performant and portable report generation mechanism that takes into account the whole of the high resolution image, instead of just the patches. Our method allows us to not only generate and evaluate captions that describe the image, but also helps us classify the image into tissue types and the gender of the patient as well. Our best performing model achieves a 79.98% accuracy in Tissue Type classification and 66.36% accuracy in classifying the sex of the patient the tissue came from, with a BLEU-4 score of 0.5818 in our caption generation task.
