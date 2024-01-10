@@ -2,15 +2,16 @@
 
 Paper Link: https://arxiv.org/abs/2312.01435. Under consideration at ISBI 2024.
 
+Here is the [inference pipeline](https://github.com/ssen7/histo_caption_inference_pipeline).
+
+[Google Drive Link to trained model weights.](https://drive.google.com/file/d/1qwuh0kdRGpcyWVy3XW8LjcyvG4uUus60/view?usp=sharing)
+
+
 ## Method overview
 ![Method Overview](./img/vitmethodoverview.png)
 
 This work builds on my prior work on
 [HistoCap](https://github.com/ssen7/histo_cap_generation_2), accepted in ML4H 2023 Findings track, by incorporating BERT based decoder instead of a LSTM decoder. We are also able to include tissue type, gender and the actual caption into the actual caption generated, while we were limited by vocabulary in case of an LSTM based decoder.
-
-Here is the [inference pipeline](https://github.com/ssen7/histo_caption_inference_pipeline).
-
-[Google Drive Link to trained model weights.](https://drive.google.com/file/d/1qwuh0kdRGpcyWVy3XW8LjcyvG4uUus60/view?usp=sharing)
 
 Abstract:
 
