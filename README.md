@@ -2,7 +2,7 @@
 
 Paper Link: https://arxiv.org/abs/2312.01435. Under consideration at ISBI 2024.
 
-Here is the [inference pipeline](https://github.com/ssen7/histo_caption_inference_pipeline).
+Here is the [inference pipeline](https://github.com/ssen7/histo_caption_inference_pipeline). Refer to this [Jupyter notebook](https://github.com/ssen7/histo_caption_inference_pipeline/blob/main/full_inference_pipeline.ipynb) for a compact demonstration of how the inference is done using our trained model.
 
 [Google Drive Link to trained model weights.](https://drive.google.com/file/d/1qwuh0kdRGpcyWVy3XW8LjcyvG4uUus60/view?usp=sharing)
 
