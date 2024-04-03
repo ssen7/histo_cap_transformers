@@ -1,6 +1,6 @@
 # histo_cap_transformers
 
-Paper Link: https://arxiv.org/abs/2312.01435. Under consideration at ISBI 2024.
+Paper Link: https://arxiv.org/abs/2312.01435. Accepted at [IEEE International Symposium on Biomedical Imaging, 2024 held at Athens, Greece](https://biomedicalimaging.org/2024/).
 
 Here is the [inference pipeline](https://github.com/ssen7/histo_caption_inference_pipeline). Refer to this [Jupyter notebook](https://github.com/ssen7/histo_caption_inference_pipeline/blob/main/full_inference_pipeline.ipynb) for a compact demonstration of how the inference is done using our trained model.
 
